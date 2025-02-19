@@ -1,3 +1,4 @@
+// javascript problem-1 
 function calculateVAT( price ) {
     if( price < 0 || typeof price !== "number"){
         return "Invalid";
@@ -17,6 +18,8 @@ const final6 = calculateVAT("foo");
 console.log(final1,final2,final3,final4,final5,final6);
 
 
+
+// javascript problem-2 
 function  validContact( contact ) {
     if(typeof contact !== "string"){
         return "Invalid";
@@ -41,6 +44,8 @@ const num6 = validContact("02145678900");
 const num7 = validContact(true);
 console.log(num1,num2,num3,num4,num5,num6,num7);
 
+
+// javascript problem-3 
 function  willSuccess( marks ) {
     if( !Array.isArray(marks) ){
         return  "Invalid";
@@ -72,6 +77,8 @@ const result7 = willSuccess("100 , 100");
 const result8 = willSuccess(90);
 console.log(result1,result2,result3,result4,result5,result6,result7,result8);
 
+
+// javascript problem-4
 function validProposal(person1, person2) {
     if ((typeof person1 !== "object") || (typeof person2 !== "object")) {
         return "Invalid";
@@ -99,6 +106,8 @@ const output7 = validProposal({ name: "mitu", gender: "male", age: 32 }, "Mizan"
 
 console.log(output1, output2, output3, output4, output5,output6,output7);
 
+
+// javascript problem-5
 function  calculateSleepTime( times ) {
 
     let finalTimeIs = {};
